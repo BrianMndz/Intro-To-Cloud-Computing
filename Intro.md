@@ -50,3 +50,8 @@ Cloud adoptions are unique for each company.
 
 Cloud gives us flexibility (scales), efficiency (hardware failures do not result in data loss).
 Challenges the IT departemnt: security, legal, regulatory, etc.
+
+There's an increase on PaaS and Saas.
+
+Resources are dinamically assigned and reassigned as needed.
+Virtualization technologies and hypervisors serving as catalysts for the emergence of modern-day cloud comp.
