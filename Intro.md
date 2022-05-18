@@ -30,4 +30,6 @@ Using technology as a service.
 2) Platform (PaaS)
 3) SaaS (App)
 
+## History
+* Hypervisors: separate processes to OS.
 
