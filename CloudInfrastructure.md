@@ -9,7 +9,7 @@ Bare metal and virtual servers: freed by users.
 Block, file and object storage
 Object: highly distributed.
 
-## Virtualization and virtual machines
+### Virtualization and virtual machines
 
 Virtualization: create a virtual version of something.
 Hypervisor makes possible virtualization.
@@ -27,7 +27,7 @@ VMs run as physical computers independently.
 2. Agility + speed
 3. Low the downtime (move the VM into another hypervisor).
 
-## Types of virtual machines
+### Types of virtual machines
 
 (Virtual servers, virtual instances o¡r instances).
 
@@ -40,7 +40,7 @@ Reserved virtual server instances: reserve capacity and guarantee reources for f
 
 Dedicated hosts: single-tenant. Exclusive use of capacity. Maximum control over workload placement.
 
-## Bare Metal Servers
+### Bare Metal Servers
 
 Single-tenant, dedicated to single customer. Customer is responsible for administration. Customers can also install their OSs. Add GPUs. Bare metal servers are physical machines. More expensive than VMs. Demanding environments. Dedcated or long-term usage. NO hypervisor required. High-Performance computing: HPC.
 
@@ -53,7 +53,7 @@ Single-tenant, dedicated to single customer. Customer is responsible for adminis
 
 * Rapidly provisioned.
 
-## Secure Networking in Cloud
+### Secure Networking in Cloud
 
 Logical instances: Cloud network. vNICs.
 
@@ -62,7 +62,7 @@ VPN: Virtual Private Network.
 
 Build: set of LOGICAL CONSTRUCTS. ensure high performance applications.
 
-## Containers
+### Containers
 
 Executable unit of software: code and dependencies are contained.
 Can run on desktop or cloud.
@@ -82,25 +82,25 @@ Third party services: 3rd party APIs. Shared between all the processes running.
 
 Direct atached: attached to a compute node to store data. Less expensive and more resilient to failure. Less disk management. Remote storage appliances.
 
-Physical disks -> Storage Appliances -> Compute node. 
+Physical disks -> Storage Appliances -> Compute node.
 
 Offer encription. Mounter on compute nodes via ethernet networks (dedicated) NFS: Network File Sotage.
 
 IOPS: In/Out Operations Per Second. Low IOPS value can become a bottleneck.
 
-## Block Storage
+### Block Storage
 
-Breaks filñes into chunks (or blocks) of data.
+Breaks files into chunks (or blocks) of data.
 Mounted from remote storage. Extremely resilient to failure.
 
 Moiunted as a volume to compute nodes using networks of optical fibres. Speed of light. Workloads that need low-latency. Consistent high speed. IOPS capacity into account.
 
-## Object storage
+### Object storage
 
 Application or programin interface. S3 API: offer by AWS.
 RESTful API.
 
-## CDN: Content Delivery Networks
+### CDN: Content Delivery Networks
 
 CDN: makes website faster, and increases the speed reducing distance. Endpoints.
 User not communicating directly with the server thanks to the endpoints.
