@@ -61,3 +61,46 @@ Virtual Private Cloud (VPC): subnets. Every subnet is protected. Security groups
 VPN: Virtual Private Network.
 
 Build: set of LOGICAL CONSTRUCTS. ensure high performance applications.
+
+## Containers
+
+Executable unit of software: code and dependencies are contained.
+Can run on desktop or cloud.
+Linux kernel introduced C groups...
+
+### VMs vs Containers
+
+VM: Host OS / Hypervisor / (OS/LIBS/JS-app) : (OS/LIBS/JS-app_2)
+Containers: (manifest: description) -> Image (Docker i.e.) -> Container
+    Host OS / Runtime Engine (Docker engine i.e.) / (libs / JS).
+
+Third party services: 3rd party APIs. Shared between all the processes running.
+
+## Cloud Storage
+
+### File storage
+
+Direct atached: attached to a compute node to store data. Less expensive and more resilient to failure. Less disk management. Remote storage appliances.
+
+Physical disks -> Storage Appliances -> Compute node. 
+
+Offer encription. Mounter on compute nodes via ethernet networks (dedicated) NFS: Network File Sotage.
+
+IOPS: In/Out Operations Per Second. Low IOPS value can become a bottleneck.
+
+## Block Storage
+
+Breaks filñes into chunks (or blocks) of data.
+Mounted from remote storage. Extremely resilient to failure.
+
+Moiunted as a volume to compute nodes using networks of optical fibres. Speed of light. Workloads that need low-latency. Consistent high speed. IOPS capacity into account.
+
+## Object storage
+
+Application or programin interface. S3 API: offer by AWS.
+RESTful API.
+
+## CDN: Content Delivery Networks
+
+CDN: makes website faster, and increases the speed reducing distance. Endpoints.
+User not communicating directly with the server thanks to the endpoints.
