@@ -1,13 +1,15 @@
-# Hybrid Multi-cloud, Microservices and serverless
+# Week 4
 
-## Hybrid Multi-cloud
+## Hybrid Multi-cloud, Microservices and serverless
+
+### Hybrid Multi-cloud
 
 Hybrid cloud: connects an organization's on-premise private cloud and third-party
 public cloud into a single infrastructure for running the organization's apps.
 
 Multi-cloud: strategy mix (public, private and managed). email, CRM and infrastructure from different providers and get the best approach.
 
-### Use-case: cloud scaling
+#### Use-case: cloud scaling
 
 on-premise infrastructure, to scale-up on response when it is more required and less when is freed.
 Compose cloud: multiple cloud environments. I.E: UI, API and frameworks can move the capabilities over to a cloud platform of their choice.
@@ -18,7 +20,7 @@ Data and IA: Lots of historical data. Unplanned maintenance for example. Legacy 
 
 Prevent to specific vender and can move onto another vendor if it's needed.
 
-## Microservices
+### Microservices
 
 Own containers.
 API <-> Event Streaming <-> message brokers. Multiple developers working independently. Dfferent stacks and runtime enviroment. Independent scaling.
@@ -27,7 +29,7 @@ In the past: app is monolithic app. No line of code from scratch. Ecosystem of c
 
 breakdown features into differenten functions. Cointainer in the distribution. Metadata feeds a microservice. Service discovery. Using analytics to create better recomendations.
 
-## Serverless Computing
+### Serverless Computing
 
 Offloads responsibility from common infrastructure management (scaling, scheduling, patching and provisioning).
 
@@ -47,7 +49,7 @@ Task: data enrichment, transformation, validation, pdf processing, audio normali
 
 Challenges: scale up/down, but simpler in other tradicional server environment.
 
-## Summary: 
+## Summary
 
 Hybrid Multicloud is a cloud adoption strategy that makes it possible for public clouds, private clouds, and on-premises IT to interoperate seamlessly while leveraging the best cloud-based services from different public cloud providers.
 
@@ -55,5 +57,29 @@ Microservices architecture is an approach in which an application is built as a 
 
 Serverless Computing is an approach to computing that offloads responsibility for common infrastructure management tasks for application runtimes to cloud providers, allowing developers to focus their time and effort on development and testing, and not have to worry about provisioning, maintaining and scaling compute resources.
 
+## Cloud Native Apps, DevOps and APP modernization
 
+### Cloud Native Applications
+
+App developed to work only on the cloud environment or refactored app. Formed by microservices and they can be upscaled accordintly to needs.
+
+Rely on containers. Agile methodologies. Monolithic vs cloud app.
+
+Cloud native app design and approach. Instrumented: loggin, events.
+
+### DevOps on the Cloud
+
+Collaborative approach Develop/Operation teams. When bussiness owners, devs and operations works together. Short iterations. A continuous delivery, cont integration, deployment and monitoring. Delivery pipeline: ideation, coding, builing, deplyment.
+
+App deployments cloud ready/cloud native. DevOps tools, practices and processes: core capabilities: provision servers, onstallation, decoumented. Fully automated pipeline. Complex distributed systems. define how people work together and collaborate.
+
+Principles, practices.
+
+### Application modernization
+
+How, what else: Architecture, infrastructure, delivery.
+
+1) Monoliths, Physical servers, waterfall.
+2) SOA, Virtual Machine, agile.
+3) Microservices (architecture), cloud (infrastructure), DevOps (SRE).
 
